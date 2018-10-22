@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="View Portfolio Summary" parallel="false">
+	<listeners>
+		<listener class-name="utility.Listener"/>
+	</listeners>
+	<test verbose="0" name="View Portfolio Summary Test">
+		<classes>
+			<class name="testCases.ViewPortfolioSummary">
+				<methods>
+					<include name="AccessDocuments_GSSP_3787" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[About to begin executing test Login Test]]>
+    </line>
+    <line>
+      <![CDATA[****************************************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[****************************************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[$$$$$$$$$$$$$$$$$$$$$                Login Test       $$$$$$$$$$$$$$$$$$$$$$$$$]]>
+    </line>
+    <line>
+      <![CDATA[****************************************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[****************************************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing CreateTC.beforeClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing CreateTC.beforeClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing CreateTC.beforeTestCase]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing CreateTC.beforeTestCase]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing CreateTC.CreateCase]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing CreateTC.CreateCase]]>
+    </line>
+    <line>
+      <![CDATA[testCases.CreateTC | CreateCase | PASSED]]>
+    </line>
+    <line>
+      <![CDATA[TestName = CreateTC.CreateCase]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in testCases.CreateTC]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing CreateTC.afterTestCase]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing CreateTC.afterTestCase]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing CreateTC.afterClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing CreateTC.afterClass]]>
+    </line>
+  </reporter-output>
+  <suite name="Test Automation Suite" duration-ms="164378" started-at="2016-02-23T01:30:32Z" finished-at="2016-02-23T01:33:16Z">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="164378" started-at="2016-02-23T01:30:32Z" finished-at="2016-02-23T01:33:16Z">
+      <class name="testCases.CreateTC">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testCases.CreateTC@506e6d5e]" name="beforeClass" is-config="true" duration-ms="12418" started-at="2016-02-22T20:30:32Z" finished-at="2016-02-22T20:30:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing CreateTC.beforeClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeTestCase()[pri:0, instance:testCases.CreateTC@506e6d5e]" name="beforeTestCase" is-config="true" duration-ms="2130" started-at="2016-02-22T20:30:44Z" finished-at="2016-02-22T20:30:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing CreateTC.beforeTestCase]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="CreateCase()[pri:0, instance:testCases.CreateTC@506e6d5e]" name="CreateCase" duration-ms="148127" started-at="2016-02-22T20:30:46Z" finished-at="2016-02-22T20:33:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing CreateTC.CreateCase]]>
+            </line>
+            <line>
+              <![CDATA[testCases.CreateTC | CreateCase | PASSED]]>
+            </line>
+            <line>
+              <![CDATA[TestName = CreateTC.CreateCase]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in testCases.CreateTC]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing CreateTC.afterTestCase]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateCase -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testCases.CreateTC@506e6d5e]" name="afterClass" is-config="true" duration-ms="1677" started-at="2016-02-22T20:33:14Z" finished-at="2016-02-22T20:33:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing CreateTC.afterClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTestCase()[pri:0, instance:testCases.CreateTC@506e6d5e]" name="afterTestCase" is-config="true" duration-ms="0" started-at="2016-02-22T20:33:14Z" finished-at="2016-02-22T20:33:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing CreateTC.afterTestCase]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTestCase -->
+      </class> <!-- testCases.CreateTC -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Test Automation Suite -->
+</testng-results>

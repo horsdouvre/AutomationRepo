@@ -1,0 +1,261 @@
+{
+	"policyNumber": "89612",
+	"certificateNumber": "85756745745",
+	"policyStatusCode": "ACTIVE",
+	"policyStartDate": "2016-10-26",
+	"policyEndDate": "2018-12-10",
+	"policyInforceDate": "2016-10-20",
+	"lastStatusChangeDate": "2016-10-20",
+	"expirationDate": "2019-10-22",
+	"policyPeriodCode": "MONTHLY",
+	"contractedDate": "2017-01-20",
+	"purchasedDate": "2014-10-20",
+	"dateOfAnnuitization": "2019-11-20",
+	"paymentSummary": {
+		"paymentAmountDue": {
+			"currencyCode": "USD",
+			"amount": "2500.00"
+		},
+		"paymentDueDate": "2019-11-20"
+	},
+	"paymentDetails": [{
+		"paymentAmount": {
+			"currencyCode": "USD",
+			"amount": "2500.00"
+		},
+		"payemntMethodCode": "DEBIT",
+		"paymentDate": "2016-02-20",
+		"paymentTypeCode": "ONE_TIME",
+		"recentPaymentDate": "2016-02-20"
+	}],
+	"product": {
+		"type": "Life",
+		"name": "Whole Life",
+		"description": "MetLife Term Life Product Management"
+	},
+	"coverages": [{
+		"code": "coverage_name",
+		"description": "coverage_description"
+	}, {
+		"code": "coverage_name2",
+		"description": "coverage_description2"
+	}],
+	"policyHolder": {
+		"name": {
+			"suffix": "Mr",
+			"firstName": "Smith",
+			"middleName": "Rough",
+			"lastName": "Kevin"
+		},
+		"emails": [{
+			"address": "test1@metlife.com",
+			"type": "WORK",
+			"primary": true
+		}, {
+			"address": "test2@metlife.com",
+			"type": "PERSONAL",
+			"primary": false
+		}],
+		"governmentId": [{
+			"type": "CitizenID",
+			"value": "12345678901"
+		}],
+		"phoneNumbers": [{
+			"countryCode": "+001",
+			"number": "7125456789",
+			"type": "MOBILE",
+			"useCode": "PRIMARY"
+		}]
+	},
+	"insured": [{
+		"name": {
+			"suffix": "Mr",
+			"firstName": "Smith",
+			"middleName": "Rough",
+			"lastName": "Kevin"
+		},
+		"benefitAmount": {
+			"currencyCode": "USD",
+			"amount": "2030"
+		}
+	}],
+	"contractOwners": [{
+		"name": {
+			"suffix": "Mr",
+			"firstName": "Smith",
+			"middleName": "Rough",
+			"lastName": "Kevin"
+		}
+	}],
+	"beneficiaries": [{
+		"name": {
+			"suffix": "Mr",
+			"firstName": "John",
+			"middleName": "Kevin",
+			"lastName": "Smith"
+		}
+	}],
+	"dependents": [{
+		"name": {
+			"suffix": "Mr",
+			"firstName": "Rough",
+			"middleName": "Bill",
+			"lastName": "Smith"
+		}
+	}],
+	"riders": [{
+		"name": "rider_name",
+		"description": "rider_description"
+	}],
+	"financialInformation": {
+		"cashValue": {
+			"currencyCode": "USD",
+			"amount": "150"
+		},
+		"loanBalance": {
+			"currencyCode": "USD",
+			"amount": "150"
+		},
+		"surrenderCharge": {
+			"currencyCode": "USD",
+			"amount": "150"
+		},
+		"insuranceAmount": {
+			"currencyCode": "USD",
+			"amount": "150"
+		},
+		"taxCharge": {
+			"currencyCode": "USD",
+			"amount": "150"
+		},
+		"surrenderAmountForStateContribution": {
+			"currencyCode": "USD",
+			"amount": "150"
+		},
+		"totalNetSurrenderValue": {
+			"currencyCode": "USD",
+			"amount": "150"
+		},
+		"loanAmountAvailable": {
+			"currencyCode": "USD",
+			"amount": "150"
+		},
+		"consolidatedBenefitAmount": {
+			"currencyCode": "USD",
+			"amount": "150"
+		},
+		"deathBenefitAmount": {
+			"currencyCode": "USD",
+			"amount": "150"
+		},
+		"assetsUnderManagement": {
+			"employeeContribution": {
+				"currencyCode": "USD",
+				"amount": "150"
+			},
+			"stateContribution": {
+				"currencyCode": "USD",
+				"amount": "150"
+			},
+			"employerContribution": {
+				"currencyCode": "USD",
+				"amount": "150"
+			}
+		}
+	},
+	"funds": [{
+		"fundName": "Temp fund",
+		"allocationPercentage": "30"
+	}],
+	"claims": [{
+		"claimDate": "2016-11-23",
+		"claimNumber": "343465",
+		"status": "PENDING",
+		"amount": "5000",
+		"currencyCode": "USD",
+		"paymentReferenceNumber": "576709",
+		"rejectionReason": "Sample Reason"
+	}],
+	"agents": [{
+		"name": {
+			"suffix": "Mr",
+			"firstName": "Smith",
+			"middleName": "Rough",
+			"lastName": "Kevin"
+		},
+		"addresses": [{
+			"zipCode": "27513",
+			"country": "United States",
+			"city": "Cary",
+			"postalCode": "12312",
+			"addressLine1": "Address1",
+			"addressLine2": "Address2",
+			"state": "NC",
+			"type": "WORK"
+		}],
+		"phoneNumbers": [{
+			"countryCode": "+001",
+			"number": "121212121211",
+			"useCode": "primary",
+			"type": "MOBILE"
+		}]
+	}],
+	"brokers": [{
+		"name": {
+			"suffix": "Mr",
+			"firstName": "Smith",
+			"middleName": "Rough",
+			"lastName": "Kevin"
+		},
+		"addresses": [{
+			"zipCode": "27513",
+			"country": "United States",
+			"city": "Cary",
+			"postalCode": "12312",
+			"addressLine1": "Address1",
+			"addressLine2": "Address2",
+			"state": "NC",
+			"type": "WORK"
+		}],
+		"phoneNumbers": [{
+			"countryCode": "+001",
+			"number": "121212121211",
+			"useCode": "primary",
+			"type": "mobile"
+		}]
+	}],
+	"groupDetails": [{
+		"groupName": "Metlife Group",
+		"metlifeAssignedId": "1234567890",
+		"employeeId": "1245689"
+	}],
+	"jointOwners": [{
+		"name": {
+			"suffix": "Mr",
+			"firstName": "Jim",
+			"middleName": "Kevin",
+			"lastName": "Bobby"
+		}
+	}],
+	"annuitants": [{
+		"name": {
+			"suffix": "Mr",
+			"firstName": "Peter",
+			"middleName": "smith",
+			"lastName": "John"
+		}
+	}],
+	"billSummary": {
+		"paymentAmountDue": {
+			"currencyCode": "USD",
+			"amount": "2500.00"
+		},
+		"nextBillingDate": "2016-10-11",
+		"billingFrequency": "MONTHLY",
+		"totalPremiumAmount": {
+			"currencyCode": "USD",
+			"amount": "4000.00"
+		},
+		"pensionRatio": "10"
+	}
+}

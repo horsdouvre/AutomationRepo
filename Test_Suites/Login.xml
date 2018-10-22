@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login" parallel="false">
+	<listeners>
+		<listener class-name="utility.Listener"/>
+	</listeners>
+	<test verbose="0" name="Login Test">
+		<classes>
+			<class name="testCases.Login">
+				<methods>
+					<include name="Test1_GSSP_3749" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

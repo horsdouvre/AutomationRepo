@@ -1,0 +1,159 @@
+<html>
+<head>
+<title>TestNG:  View Portfolio Summary Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>View Portfolio Summary Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Feb 22 10:19:48 EST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (843 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.ViewPortfolioSummary.beforeClass()'><b>beforeClass</b><br>Test class: testCases.ViewPortfolioSummary<br/>
+<a href="#Output-422330142" onClick='toggleBox("Output-422330142", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-422330142" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-422330142">
+Completed executing ViewPortfolioSummary.beforeClass<br/>
+</div>
+</td>
+<td><div><pre>org.testng.SkipException: Skiping This Test as &apos;Need To Execute&apos; Request is selected as No
+	at testCases.ViewPortfolioSummary.beforeClass(ViewPortfolioSummary.java:48)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace422330142", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace422330142'><pre>org.testng.SkipException: Skiping This Test as &apos;Need To Execute&apos; Request is selected as No
+	at testCases.ViewPortfolioSummary.beforeClass(ViewPortfolioSummary.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1240)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+</pre></div></td>
+<td>0</td>
+<td>testCases.ViewPortfolioSummary@6442b0a6</td></tr>
+<tr>
+<td title='testCases.ViewPortfolioSummary.beforeTestCase()'><b>beforeTestCase</b><br>Test class: testCases.ViewPortfolioSummary</td>
+<td></td>
+<td>0</td>
+<td>testCases.ViewPortfolioSummary@6442b0a6</td></tr>
+<tr>
+<td title='testCases.ViewPortfolioSummary.afterTestCase()'><b>afterTestCase</b><br>Test class: testCases.ViewPortfolioSummary</td>
+<td></td>
+<td>0</td>
+<td>testCases.ViewPortfolioSummary@6442b0a6</td></tr>
+<tr>
+<td title='testCases.ViewPortfolioSummary.afterClass()'><b>afterClass</b><br>Test class: testCases.ViewPortfolioSummary</td>
+<td></td>
+<td>0</td>
+<td>testCases.ViewPortfolioSummary@6442b0a6</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.ViewPortfolioSummary.AccessDocuments_GSSP_3787()'><b>AccessDocuments_GSSP_3787</b><br>Test class: testCases.ViewPortfolioSummary<br/>
+<a href="#Output-515715487" onClick='toggleBox("Output-515715487", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-515715487" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-515715487">
+testCases.ViewPortfolioSummary | AccessDocuments_GSSP_3787 | SKIPPED<br/>
+TestName = ViewPortfolioSummary.AccessDocuments_GSSP_3787<br/>
+Test Method resides in testCases.ViewPortfolioSummary<br/>
+Test Status: Skipped<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.ViewPortfolioSummary@6442b0a6</td></tr>
+</table><p>
+</body>
+</html>

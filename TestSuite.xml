@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Automation Suite" parallel="false">
+	<test verbose="0" name="Annotation Test">
+		<classes>
+			<class name="testCases.TestReport">
+				<methods>
+					<include name="Test1_GSSP_3749" />
+					<include name="Test2_GSSP_3748" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

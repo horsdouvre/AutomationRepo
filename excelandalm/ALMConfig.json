@@ -1,0 +1,163 @@
+{
+  "SAFEWAY": {
+    "almURL": "http://alm.safeway.com/qcbin",
+    "almUserName": "bkuma03",
+    "almPassword": "Chgbk@0118",
+    "almDomain": "MARKETING",
+    "almProject": "Project_11667",
+    "almTestSetPath": "2. System Test\2018 - Functional Testing\2018.01\Monopoly\Regression Testing - QA2\Automated",
+    "almTestSetName": "FULL - Safeway - IE11",
+    "almTestSetID": "14382"
+  },
+  "ALBERTSONS": {
+    "almURL": "http://alm.safeway.com/qcbin",
+    "almUserName": "bkuma03",
+    "almPassword": "Chgbk@0118",
+    "almDomain": "MARKETING",
+    "almProject": "Project_11578",
+    "almTestSetPath": "NextGen_Customer_Portal\2017\NAI Release 2\Automated\Contact Us\Smoke",
+    "almTestSetName": "02 - Albertsons -  chrome",
+    "almTestSetID": "27080"
+  },
+  "VONS": {
+    "almURL": "http://alm.safeway.com/qcbin",
+    "almUserName": "bkuma03",
+    "almPassword": "Chgbk@0118",
+    "almDomain": "MARKETING",
+    "almProject": "Project_11578",
+    "almTestSetPath": "NextGen_Customer_Portal\2017\NAI Release 2\Automated\Contact Us\Smoke",
+    "almTestSetName": "03 - Vons - Safari",
+    "almTestSetID": "26998"
+  },
+  "TOMTHUMB": {
+    "almURL": "http://alm.safeway.com/qcbin",
+    "almUserName": "bkuma03",
+    "almPassword": "Chgbk@0917",
+    "almDomain": "MARKETING",
+    "almProject": "Project_11578",
+    "almTestSetPath": "NextGen_Customer_Portal\2017\NAI Release 2\Automated\Contact Us\Smoke",
+    "almTestSetName": "03 - Tomthumb - IE11",
+    "almTestSetID": "26997"
+  },
+  "CARRS": {
+    "almURL": "http://alm.safeway.com/qcbin",
+    "almUserName": "bkuma03",
+    "almPassword": "Chgbk@0917",
+    "almDomain": "MARKETING",
+    "almProject": "Project_11578",
+    "almTestSetPath": "NextGen_Customer_Portal\2017\NAI Release 2\Automated\Contact Us\Smoke",
+    "almTestSetName": "03 - Carrs - FF",
+    "almTestSetID": "27000"
+  },
+  "PAVILIONS": {
+    "almURL": "http://alm.safeway.com/qcbin",
+    "almUserName": "bkuma03",
+    "almPassword": "Chgbk@0917",
+    "almDomain": "MARKETING",
+    "almProject": "Project_11578",
+    "almTestSetPath": "NextGen_Customer_Portal\2017\NAI Release 3\Automated\04 - Contact Us\Smoke",
+    "almTestSetName": "03 - Pavilions - chrome",
+    "almTestSetID": "26995"
+  },
+  "RANDALLS": {
+    "almURL": "http://alm.safeway.com/qcbin",
+    "almUserName": "bkuma03",
+    "almPassword": "Chgbk@0917",
+    "almDomain": "MARKETING",
+    "almProject": "Project_11578",
+    "almTestSetPath": "NextGen_Customer_Portal\2017\NAI Release 2\Automated\Contact Us\Smoke",
+    "almTestSetName": "03 - Randalls- chrome",
+    "almTestSetID": "26999"
+},
+  "SHAWS": {
+    "almURL": "http://alm.safeway.com/qcbin",
+    "almUserName": "bkuma03",
+    "almPassword": "Chgbk@0917",
+    "almDomain": "MARKETING",
+    "almProject": "Project_11578",
+    "almTestSetPath": "NextGen_Customer_Portal\2017\NAI Release 3\Automated\04 - Contact Us",
+    "almTestSetName": "Shaws-IE11",
+    "almTestSetID": "26994"
+  },
+  "STARMARKET": {
+    "almURL": "http://alm.safeway.com/qcbin",
+    "almUserName": "bkuma03",
+    "almPassword": "Chgbk@0917",
+    "almDomain": "MARKETING",
+    "almProject": "Project_11578",
+    "almTestSetPath": "3.Regression Test\2017-Regression Testing\NAI Release 3(Point Release)\QA1 Regression Testing(use this if new cc is NO GO)\Automated\Registration",
+    "almTestSetName": "Starmarket-chrome",
+    "almTestSetID": "14257"
+  },
+  "JEWELOSCO": {
+    "almURL": "http://alm.safeway.com/qcbin",
+    "almUserName": "bkuma03",
+    "almPassword": "Chgbk@0917",
+    "almDomain": "MARKETING",
+    "almProject": "Project_11578",
+    "almTestSetPath": "NextGen_Customer_Portal\2017\NAI Release 3\Automated\04 - Contact Us\Smoke",
+    "almTestSetName": "01 - Jewelosco - Chrome",
+    "almTestSetID": "27086"
+  },
+  "ACMEMARKETS": {
+    "almURL": "http://alm.safeway.com/qcbin",
+    "almUserName": "bkuma03",
+    "almPassword": "Chgbk@0118",
+    "almDomain": "MARKETING",
+    "almProject": "Project_11667",
+    "almTestSetPath": "2. System Test\2018 - Functional Testing\JO and ACME Testing (NAI Phase II Release 1)\QA1 Functional Testing\Automated",
+    "almTestSetName": "ACME - FF",
+    "almTestSetID": "14400"
+  },
+  "UNITEDSUPERMARKETS": {
+    "almURL": "http://alm.safeway.com/qcbin",
+    "almUserName": "bkuma03",
+    "almPassword": "Chgbk@0917",
+    "almDomain": "MARKETING",
+    "almProject": "Project_11578",
+    "almTestSetPath": "NextGen_Customer_Portal\2017\NAI Release 3\Automated\04 - Contact Us\Smoke",
+    "almTestSetName": "04 - UnitedMarket - FF",
+    "almTestSetID": "27011"
+  },
+  "AMIGOSUNITED": {
+    "almURL": "http://alm.safeway.com/qcbin",
+    "almUserName": "bkuma03",
+    "almPassword": "Chgbk@0917",
+    "almDomain": "MARKETING",
+    "almProject": "Project_11578",
+    "almTestSetPath": "NextGen_Customer_Portal\2017\NAI Release 3\Automated\04 - Contact Us\Smoke",
+    "almTestSetName": "04 - Amigos - Chrome",
+    "almTestSetID": "27009"
+  },
+  "MARKETSTREETUNITED": {
+    "almURL": "http://alm.safeway.com/qcbin",
+    "almUserName": "bkuma03",
+    "almPassword": "Chgbk@0917",
+    "almDomain": "MARKETING",
+    "almProject": "Project_11578",
+    "almTestSetPath": "NextGen_Customer_Portal\2017\NAI Release 3\Automated\04 - Contact Us\Smoke",
+    "almTestSetName": "04 - MarketStreet - Safari",
+    "almTestSetID": "27010"
+  },
+  "ALBERTSONSMARKET": {
+    "almURL": "http://alm.safeway.com/qcbin",
+    "almUserName": "bkuma03",
+    "almPassword": "Chgbk@0917",
+    "almDomain": "MARKETING",
+    "almProject": "Project_11578",
+    "almTestSetPath": "NextGen_Customer_Portal\2017\NAI Release 3\Automated\04 - Contact Us\Smoke",
+    "almTestSetName": "04 - AlbertsonsMarket - IE11",
+    "almTestSetID": "27008"
+  },
+  "LUCKY": {
+    "almURL": "http://alm.safeway.com/qcbin",
+    "almUserName": "",
+    "almPassword": "",
+    "almDomain": "MARKETING",
+    "almProject": "Project_11667",
+    "almTestSetPath": "",
+    "almTestSetName": "",
+    "almTestSetID": ""
+  }
+
+}

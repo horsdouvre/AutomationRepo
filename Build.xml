@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<project name="MetLife_GSSP" default="all" basedir=".">
+
+	<property environment="env" />
+	<property name="ws.home" value="${basedir}" />
+	<property name="ws.jars" value="${ws.home}/lib" />
+	<property name="test.dest" value="${ws.home}/build"></property>
+	<property name="test.src" value="${ws.home}/src" />
+	<property name="ng.result" value="${ws.home}/test-output" />
+
+
+	<target name="setClassPath" unless="test.classpath">
+		<path id="classpath_jars">
+			<fileset dir="${ws.jars}" includes="*.jar*" />
+		</path>
+		<pathconvert pathsep=":" property="test.classpath" refid="classpath_jars" />
+	</target>
+
+	<target name="init" depends="setClassPath">
+		<tstamp>
+			<format property="start.time" pattern="MM/dd/yyyy hh:mm:aa" />
+		</tstamp>
+		<condition property="ANT" value="${env.ANT_HOME}/bin/ant.bat"
+			else="${env.ANT_HOME}/bin/ant">
+			<os family="windows" />
+		</condition>
+		<taskdef name="testng" classpath="${test.classpath}"
+			classname="org.testng.TestNGAntTask" />
+
+	</target>
+
+	<target name="all">
+	</target>
+
+	<target name="clean">
+		<delete dir="${test.dest}" />
+		<delete file="${ws.home}/logfile.log" />
+		<delete file="${ws.home}/logs.html" />
+	</target>
+
+
+	<target name="compile" depends="init, clean">
+		<delete includeemptydirs="true" quiet="true">
+			<fileset dir="${test.dest}" includes="**/*" />
+		</delete>
+		<echo message="making directory..." />
+		<mkdir dir="${test.dest}" />
+		<echo message="classpath------: ${test.classpath}" />
+		<echo message="compiling..." />
+		<javac debug="true" destdir="${test.dest}" srcdir="${test.src}"
+			target="1.8" includeantruntime="true" classpath="${test.classpath}">
+		</javac>
+	</target>
+
+	<target name="build" depends="init">
+	</target>
+
+	<target name="run">
+		<testng classpath="${test.classpath}:${test.dest}" suitename="Test Automation Suite">
+			<xmlfileset dir="${ws.home}" includes="testng.xml" />
+		</testng>
+
+		<testng classpath="${test.classpath}:${test.dest}">
+			<classfileset dir="${test.dest}" includes="*.*" />
+		</testng>
+	</target>
+
+		<target name="runFail" depends="compile">
+		<testng classpath="${test.classpath}:${test.dest}" suitename="Test Automation Suite">
+			<xmlfileset dir="${ng.result}" includes="testng-failed.xml" />
+		</testng>
+
+		<testng classpath="${test.classpath}:${test.dest}">
+			<classfileset dir="${test.dest}" includes="*.*" />
+		</testng>
+	</target>
+
+	<target name="makexsltReports" depends="compile">
+		<mkdir dir="${ws.home}/xsltReports/output" />
+		<xslt in="${ng.result}/testng-results.xml" style="${ws.home}/src/testng-results.xsl"
+			out="${ws.home}/xsltReports/output/index.html" classpathref="classpath_jars"
+			processor="SaxonLiaison">
+			<param name="testNgXslt.outputDir" expression="${ws.home}/xsltReports/output/"></param>
+			<param name="testNgXslt.sortTestCaseLinks" expression="true" />
+			<param name="testNgXslt.showRuntimeTotals" expression="true" />
+			<param name="testNgXslt.testDetailsFilter" expression="FAIL,SKIP,PASS" />
+		</xslt>
+	</target>
+
+	<target name="mail">
+		<taskdef name="mimemail"
+			classname="org.apache.tools.ant.taskdefs.optional.net.MimeMail" />
+		<tstamp />
+		<mimemail messageMimeType="text/html"
+			messageFile="${ws.home}/xsltReports/output/index.html" tolist="rohit.khare@in.ibm.com"
+			mailhost="mail.citi.com" subject="TestNg Test Results: ${TODAY}"
+			from="rohit.khare@in.ibm.com">
+		</mimemail>
+	</target>
+
+</project>
+
